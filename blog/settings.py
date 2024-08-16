@@ -130,7 +130,7 @@ DATABASES = {
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=config('DATABASE_URL')
+        default=config('DATABASE_URL', default='postgresql://neondb_owner:QROjoFzd8g6P@ep-plain-tooth-a53m7zcl.us-east-2.aws.neon.tech/neondb?sslmode=require')
     )
 }
 
