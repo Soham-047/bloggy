@@ -1,0 +1,12 @@
+GET http://127.0.0.1:8000/test_token
+Content-Type: application/json
+
+{ "username": "Soham", "password": "Soham@123" }
+###
+
+POST http://127.0.0.1:8000/register
+Content-Type: application/json
+
+{ "username": "Soham32", "password": "Soham@123", "email": "soahm@gmail.com" }
+
+###

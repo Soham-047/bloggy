@@ -1,0 +1,41 @@
+.post-title
+{
+    text-align: left;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color:white;
+}
+.post-title
+{
+    text-decoration: none;
+}
+.postbox
+{
+    padding: 10px;
+    margin-right: 25%;
+    margin-left: 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: 200px;
+    background-color: white;
+    align-items: left;
+    border-radius: 7px;
+    position: relative;
+    border: 2px solid rgb(143, 141, 141);
+}
+.post-author
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.blog-post-link
+{
+    text-decoration: none;
+    color: black;
+}
+.blog-post-link h2,h1,h3:hover
+{
+    color: rgb(184, 139, 225);
+}

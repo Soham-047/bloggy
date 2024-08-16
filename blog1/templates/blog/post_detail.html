@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <div class="postbox" style=" width: auto;height: auto; overflow: auto;">
+        <img src="{{ object.author.profile.image.url }}" alt="" class=" article-img " style="width: 5%;">
+        <h1 class="post-title">{{ object.title }}</h1>
+        {% if object.author == user %}
+            <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}">Update</a>
+            <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}">Delete</a>
+        {% endif %}
+        <hr>
+        <p class="post-content">{{object.content}}</p>
+        <p class="post-author">{{object.author}}</p>
+        <small class="text-muted">{{ object.date_posted|date:"F d. Y" }}</small>
+        <br><br>
+    </div>
+    <br>
+{% endblock content %}

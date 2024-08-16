@@ -1,0 +1,9 @@
+.content-section
+{
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(235, 235, 235, 0.392);
+    padding: 2%;
+    border-radius: 20px;
+}
