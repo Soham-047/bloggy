@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-0qu+&o5p6+5cb8(6@7d41nehae(%s+b(48266szy(z13)bc2dq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG")
 
-ALLOWED_HOSTS = config("ALLOWED_HOSTS").split(",")
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'vervevista.onrender.com']
 
 
 
